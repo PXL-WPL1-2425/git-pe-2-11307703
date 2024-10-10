@@ -1,9 +1,28 @@
+nav {
+    display: flex;
+}
+
 nav > div {
     width: 33%;
     display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    background: lightgray;
 }
 
-.Linkse-container img {
-    height: 175px;
+.container-links > img {
+    width: 28%;
+}
+
+.container-midden a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.container-midden ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
